@@ -16,7 +16,25 @@ struct DynamicTextView: View {
     var body: some View {
         ZStack {
             VStack {
-                Color.red
+                ForEach(0..<5) { data in
+                    HStack(spacing: 30) {
+                        Circle()
+                            .fill(.black)
+                            .frame(width: 25, height: 25)
+                        
+                        Text("Hello O2O DEVELOPER ")
+                            .font(.custom("BebasNeue-Regular", size: 50))
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.1)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+
+//                            .customO2OFont(size: 22)
+                    }
+                    .padding()
+                    .frame(width: screen.width, alignment: .leading)
+                    .background(Color.white)
+                    .softShadowV1()
+                }
             }
         }
     }

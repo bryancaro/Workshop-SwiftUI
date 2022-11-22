@@ -63,6 +63,7 @@
 		1188F17E292D8791009C0A2C /* DynamicTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F17D292D8791009C0A2C /* DynamicTextView.swift */; };
 		1188F181292D87BF009C0A2C /* NeumorphicButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F180292D87BF009C0A2C /* NeumorphicButtons.swift */; };
 		1188F184292D87E0009C0A2C /* Widget-Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F183292D87E0009C0A2C /* Widget-Readme.swift */; };
+		1188F187292D93DC009C0A2C /* PreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F186292D93DC009C0A2C /* PreferenceKeyView.swift */; };
 		11BE30FD292588C90034F3C5 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE30FC292588C90034F3C5 /* NavigationBar.swift */; };
 		11BE310029258FEA0034F3C5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE30FF29258FEA0034F3C5 /* TabBar.swift */; };
 		11BE3106292591BF0034F3C5 /* RocketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE3105292591BF0034F3C5 /* RocketsView.swift */; };
@@ -156,6 +157,7 @@
 		1188F17D292D8791009C0A2C /* DynamicTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DynamicTextView.swift; path = "Workshop SwiftUI/Teach/DESIGN/StyleGuide/DynamicTextView.swift"; sourceTree = SOURCE_ROOT; };
 		1188F180292D87BF009C0A2C /* NeumorphicButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtons.swift; sourceTree = "<group>"; };
 		1188F183292D87E0009C0A2C /* Widget-Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widget-Readme.swift"; sourceTree = "<group>"; };
+		1188F186292D93DC009C0A2C /* PreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyView.swift; sourceTree = "<group>"; };
 		11BE30FC292588C90034F3C5 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		11BE30FF29258FEA0034F3C5 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		11BE3105292591BF0034F3C5 /* RocketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsView.swift; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 			children = (
 				11236773292D394000E82ADA /* StyleGuide */,
 				1188F17C292D8779009C0A2C /* Dynamic Text */,
+				1188F185292D93BF009C0A2C /* Preference Key */,
 				1188F17F292D87A6009C0A2C /* Neumorphic Buttons */,
 				11236774292D394E00E82ADA /* Animation and Transitions */,
 			);
@@ -636,6 +639,14 @@
 			path = Widget;
 			sourceTree = "<group>";
 		};
+		1188F185292D93BF009C0A2C /* Preference Key */ = {
+			isa = PBXGroup;
+			children = (
+				1188F186292D93DC009C0A2C /* PreferenceKeyView.swift */,
+			);
+			path = "Preference Key";
+			sourceTree = "<group>";
+		};
 		11BE30FB292588890034F3C5 /* Custom Nav Bar */ = {
 			isa = PBXGroup;
 			children = (
@@ -824,6 +835,7 @@
 				1188F184292D87E0009C0A2C /* Widget-Readme.swift in Sources */,
 				11236778292D39E700E82ADA /* StyleGuide.swift in Sources */,
 				11BE3108292592060034F3C5 /* SatelliteView.swift in Sources */,
+				1188F187292D93DC009C0A2C /* PreferenceKeyView.swift in Sources */,
 				11236784292D3C8D00E82ADA /* StyleGuideView.swift in Sources */,
 				11681905291B9836004012ED /* AsyncLetViewModel.swift in Sources */,
 				1107361A292995C300A9D360 /* ContentView.swift in Sources */,

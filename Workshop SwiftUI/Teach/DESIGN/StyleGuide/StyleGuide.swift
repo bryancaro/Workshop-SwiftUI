@@ -77,6 +77,16 @@ extension Text {
             .foregroundColor(color)
             .multilineTextAlignment(alignment)
     }
+    
+    func customO2OFont(size     : CGFloat,
+                    color    : Color         = .primary,
+                    alignment: TextAlignment = .center
+    ) -> some View {
+        self
+            .font(.custom("BebasNeue-Regular", size: size))
+            .foregroundColor(color)
+            .multilineTextAlignment(alignment)
+    }
 }
 
 //  MARK: - SHADOWS
