@@ -12,6 +12,12 @@
 		11073618292988EA00A9D360 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11073617292988EA00A9D360 /* PreferenceKey.swift */; };
 		1107361A292995C300A9D360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11073619292995C300A9D360 /* ContentView.swift */; };
 		1107361D29299D4000A9D360 /* Text-Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107361C29299D4000A9D360 /* Text-Modifier.swift */; };
+		11236778292D39E700E82ADA /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11236777292D39E700E82ADA /* StyleGuide.swift */; };
+		1123677A292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11236779292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift */; };
+		11236780292D3B5D00E82ADA /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1123677E292D3B5D00E82ADA /* BebasNeue-Regular.ttf */; };
+		11236781292D3B5D00E82ADA /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1123677F292D3B5D00E82ADA /* OFL.txt */; };
+		11236784292D3C8D00E82ADA /* StyleGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11236783292D3C8D00E82ADA /* StyleGuideView.swift */; };
+		11236786292D3FFF00E82ADA /* StyleGuide-Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11236785292D3FFF00E82ADA /* StyleGuide-Modifier.swift */; };
 		1161C16A292A7AE900693757 /* RocketCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C169292A7AE900693757 /* RocketCard.swift */; };
 		1161C16C292A9AE300693757 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C16B292A9AE300693757 /* Rocket.swift */; };
 		1161C16E292AD12400693757 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C16D292AD12400693757 /* MatchedView.swift */; };
@@ -54,6 +60,9 @@
 		11681991291C10FD004012ED /* TeamWidgetLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11681990291C10FD004012ED /* TeamWidgetLargeView.swift */; };
 		11681993291C110C004012ED /* TeamWidgetSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11681992291C110C004012ED /* TeamWidgetSmallView.swift */; };
 		11681995291C4788004012ED /* Readme-Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11681994291C4788004012ED /* Readme-Widget.swift */; };
+		1188F17E292D8791009C0A2C /* DynamicTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F17D292D8791009C0A2C /* DynamicTextView.swift */; };
+		1188F181292D87BF009C0A2C /* NeumorphicButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F180292D87BF009C0A2C /* NeumorphicButtons.swift */; };
+		1188F184292D87E0009C0A2C /* Widget-Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F183292D87E0009C0A2C /* Widget-Readme.swift */; };
 		11BE30FD292588C90034F3C5 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE30FC292588C90034F3C5 /* NavigationBar.swift */; };
 		11BE310029258FEA0034F3C5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE30FF29258FEA0034F3C5 /* TabBar.swift */; };
 		11BE3106292591BF0034F3C5 /* RocketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE3105292591BF0034F3C5 /* RocketsView.swift */; };
@@ -93,6 +102,13 @@
 		11073617292988EA00A9D360 /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
 		11073619292995C300A9D360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1107361C29299D4000A9D360 /* Text-Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text-Modifier.swift"; sourceTree = "<group>"; };
+		11236777292D39E700E82ADA /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		11236779292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImpactFeedBack-Utilities.swift"; path = "Workshop SwiftUI/Teach/DESIGN/Neumorphic Buttons/UIImpactFeedBack-Utilities.swift"; sourceTree = SOURCE_ROOT; };
+		1123677E292D3B5D00E82ADA /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		1123677F292D3B5D00E82ADA /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		11236782292D3B9B00E82ADA /* Workshop-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Workshop-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		11236783292D3C8D00E82ADA /* StyleGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideView.swift; sourceTree = "<group>"; };
+		11236785292D3FFF00E82ADA /* StyleGuide-Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StyleGuide-Modifier.swift"; sourceTree = "<group>"; };
 		1161C169292A7AE900693757 /* RocketCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketCard.swift; sourceTree = "<group>"; };
 		1161C16B292A9AE300693757 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
 		1161C16D292AD12400693757 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
@@ -137,6 +153,9 @@
 		11681990291C10FD004012ED /* TeamWidgetLargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamWidgetLargeView.swift; sourceTree = "<group>"; };
 		11681992291C110C004012ED /* TeamWidgetSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamWidgetSmallView.swift; sourceTree = "<group>"; };
 		11681994291C4788004012ED /* Readme-Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Readme-Widget.swift"; sourceTree = "<group>"; };
+		1188F17D292D8791009C0A2C /* DynamicTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DynamicTextView.swift; path = "Workshop SwiftUI/Teach/DESIGN/StyleGuide/DynamicTextView.swift"; sourceTree = SOURCE_ROOT; };
+		1188F180292D87BF009C0A2C /* NeumorphicButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtons.swift; sourceTree = "<group>"; };
+		1188F183292D87E0009C0A2C /* Widget-Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widget-Readme.swift"; sourceTree = "<group>"; };
 		11BE30FC292588C90034F3C5 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		11BE30FF29258FEA0034F3C5 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		11BE3105292591BF0034F3C5 /* RocketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsView.swift; sourceTree = "<group>"; };
@@ -248,6 +267,44 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
+		11236772292D393500E82ADA /* DESIGN */ = {
+			isa = PBXGroup;
+			children = (
+				11236773292D394000E82ADA /* StyleGuide */,
+				1188F17C292D8779009C0A2C /* Dynamic Text */,
+				1188F17F292D87A6009C0A2C /* Neumorphic Buttons */,
+				11236774292D394E00E82ADA /* Animation and Transitions */,
+			);
+			path = DESIGN;
+			sourceTree = "<group>";
+		};
+		11236773292D394000E82ADA /* StyleGuide */ = {
+			isa = PBXGroup;
+			children = (
+				1123677D292D3B5D00E82ADA /* Bebas_Neue */,
+				11236777292D39E700E82ADA /* StyleGuide.swift */,
+				11236785292D3FFF00E82ADA /* StyleGuide-Modifier.swift */,
+				11236783292D3C8D00E82ADA /* StyleGuideView.swift */,
+			);
+			path = StyleGuide;
+			sourceTree = "<group>";
+		};
+		11236774292D394E00E82ADA /* Animation and Transitions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Animation and Transitions";
+			sourceTree = "<group>";
+		};
+		1123677D292D3B5D00E82ADA /* Bebas_Neue */ = {
+			isa = PBXGroup;
+			children = (
+				1123677E292D3B5D00E82ADA /* BebasNeue-Regular.ttf */,
+				1123677F292D3B5D00E82ADA /* OFL.txt */,
+			);
+			path = Bebas_Neue;
+			sourceTree = "<group>";
+		};
 		116818C7291B9579004012ED = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +327,7 @@
 		116818D2291B9579004012ED /* Workshop SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				11236782292D3B9B00E82ADA /* Workshop-SwiftUI-Info.plist */,
 				116818E1291B958D004012ED /* Base */,
 				116818E2291B959F004012ED /* Teach */,
 				11BE3101292590E00034F3C5 /* Modules */,
@@ -300,7 +358,7 @@
 			isa = PBXGroup;
 			children = (
 				116818E6291B9642004012ED /* NOT DESIGN */,
-				116818E5291B9639004012ED /* DESIGN */,
+				11236772292D393500E82ADA /* DESIGN */,
 			);
 			path = Teach;
 			sourceTree = "<group>";
@@ -326,24 +384,13 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		116818E5291B9639004012ED /* DESIGN */ = {
-			isa = PBXGroup;
-			children = (
-				116818F0291B970E004012ED /* StyleGuide - DarkMode */,
-				116818EF291B9703004012ED /* Animations and transitions */,
-				116818EE291B96F1004012ED /* Neumorphic Buttons */,
-				116818ED291B96E9004012ED /* Dynamic Text */,
-			);
-			path = DESIGN;
-			sourceTree = "<group>";
-		};
 		116818E6291B9642004012ED /* NOT DESIGN */ = {
 			isa = PBXGroup;
 			children = (
 				116818E8291B9692004012ED /* Concurrency */,
 				116818E9291B969B004012ED /* Object */,
 				116818EA291B96B9004012ED /* Representable and Hosting */,
-				116818EB291B96C8004012ED /* Widget */,
+				1188F182292D87D6009C0A2C /* Widget */,
 				116818EC291B96CF004012ED /* Core Motion */,
 			);
 			path = "NOT DESIGN";
@@ -382,13 +429,6 @@
 			path = "Representable and Hosting";
 			sourceTree = "<group>";
 		};
-		116818EB291B96C8004012ED /* Widget */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Widget;
-			sourceTree = "<group>";
-		};
 		116818EC291B96CF004012ED /* Core Motion */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,34 +436,6 @@
 				11C32F382923F856006EF581 /* CoreMotionViewModel.swift */,
 			);
 			path = "Core Motion";
-			sourceTree = "<group>";
-		};
-		116818ED291B96E9004012ED /* Dynamic Text */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Dynamic Text";
-			sourceTree = "<group>";
-		};
-		116818EE291B96F1004012ED /* Neumorphic Buttons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Neumorphic Buttons";
-			sourceTree = "<group>";
-		};
-		116818EF291B9703004012ED /* Animations and transitions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Animations and transitions";
-			sourceTree = "<group>";
-		};
-		116818F0291B970E004012ED /* StyleGuide - DarkMode */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "StyleGuide - DarkMode";
 			sourceTree = "<group>";
 		};
 		116818F2291B9835004012ED /* Async Let */ = {
@@ -599,6 +611,31 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		1188F17C292D8779009C0A2C /* Dynamic Text */ = {
+			isa = PBXGroup;
+			children = (
+				1188F17D292D8791009C0A2C /* DynamicTextView.swift */,
+			);
+			path = "Dynamic Text";
+			sourceTree = "<group>";
+		};
+		1188F17F292D87A6009C0A2C /* Neumorphic Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				11236779292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift */,
+				1188F180292D87BF009C0A2C /* NeumorphicButtons.swift */,
+			);
+			path = "Neumorphic Buttons";
+			sourceTree = "<group>";
+		};
+		1188F182292D87D6009C0A2C /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				1188F183292D87E0009C0A2C /* Widget-Readme.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
 		11BE30FB292588890034F3C5 /* Custom Nav Bar */ = {
 			isa = PBXGroup;
 			children = (
@@ -743,6 +780,8 @@
 			files = (
 				116818DB291B957C004012ED /* Preview Assets.xcassets in Resources */,
 				116818D8291B957C004012ED /* Assets.xcassets in Resources */,
+				11236781292D3B5D00E82ADA /* OFL.txt in Resources */,
+				11236780292D3B5D00E82ADA /* BebasNeue-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,7 +802,9 @@
 			files = (
 				1168190F291B9836004012ED /* TaskCancelViewModel.swift in Sources */,
 				11C32F392923F856006EF581 /* CoreMotionViewModel.swift in Sources */,
+				1123677A292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift in Sources */,
 				11C32F372923F835006EF581 /* CoreMotionView.swift in Sources */,
+				1188F181292D87BF009C0A2C /* NeumorphicButtons.swift in Sources */,
 				1107361D29299D4000A9D360 /* Text-Modifier.swift in Sources */,
 				1161C16E292AD12400693757 /* MatchedView.swift in Sources */,
 				1168192A291BA6DB004012ED /* UIView-Extension.swift in Sources */,
@@ -773,13 +814,17 @@
 				11681919291B99AB004012ED /* StateObservableObjectViewModel.swift in Sources */,
 				1161C16C292A9AE300693757 /* Rocket.swift in Sources */,
 				11681911291B991C004012ED /* UpdatingExampleView.swift in Sources */,
+				1188F17E292D8791009C0A2C /* DynamicTextView.swift in Sources */,
 				11BE3106292591BF0034F3C5 /* RocketsView.swift in Sources */,
 				11681927291BA40D004012ED /* LoginView.swift in Sources */,
 				11681920291B9C38004012ED /* Readme.swift in Sources */,
 				11681925291BA407004012ED /* LoginUIViewRepresentable.swift in Sources */,
 				11681908291B9836004012ED /* TaskGroupView.swift in Sources */,
 				1168190E291B9836004012ED /* TaskCancelView.swift in Sources */,
+				1188F184292D87E0009C0A2C /* Widget-Readme.swift in Sources */,
+				11236778292D39E700E82ADA /* StyleGuide.swift in Sources */,
 				11BE3108292592060034F3C5 /* SatelliteView.swift in Sources */,
+				11236784292D3C8D00E82ADA /* StyleGuideView.swift in Sources */,
 				11681905291B9836004012ED /* AsyncLetViewModel.swift in Sources */,
 				1107361A292995C300A9D360 /* ContentView.swift in Sources */,
 				11073618292988EA00A9D360 /* PreferenceKey.swift in Sources */,
@@ -789,6 +834,7 @@
 				1168190B291B9836004012ED /* AsyncAwaitView.swift in Sources */,
 				11681917291B99A1004012ED /* StateObservableObjectView.swift in Sources */,
 				110736122929720200A9D360 /* StrokeStyle.swift in Sources */,
+				11236786292D3FFF00E82ADA /* StyleGuide-Modifier.swift in Sources */,
 				11681909291B9836004012ED /* TaskGroupViewModel.swift in Sources */,
 				11BE310A2925921E0034F3C5 /* ChallengeView.swift in Sources */,
 				11681923291BA3EF004012ED /* LoginViewController.swift in Sources */,
@@ -956,6 +1002,7 @@
 				DEVELOPMENT_TEAM = ZASPB3G349;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Workshop-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -986,6 +1033,7 @@
 				DEVELOPMENT_TEAM = ZASPB3G349;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Workshop-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
