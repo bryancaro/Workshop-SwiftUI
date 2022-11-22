@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Rockets%20With%20Fuel%20Tank.H03.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

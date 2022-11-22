@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Robot%20Rocket%20Launcher.H03.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

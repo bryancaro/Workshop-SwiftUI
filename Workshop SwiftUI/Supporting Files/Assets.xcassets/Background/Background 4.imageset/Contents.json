@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "space-view-on-planet-earth-and-sun-in-universe-2021-08-29-03-57-26-utc.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

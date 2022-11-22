@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Grey%20Robot%20Dog%20%20Walking.H03.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

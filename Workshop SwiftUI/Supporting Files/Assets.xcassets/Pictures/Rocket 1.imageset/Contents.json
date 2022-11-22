@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Heavy%20Starship%20With%20Booster.H03.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
