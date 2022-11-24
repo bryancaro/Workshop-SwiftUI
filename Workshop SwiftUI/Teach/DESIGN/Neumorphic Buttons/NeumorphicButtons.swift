@@ -16,14 +16,18 @@ struct NeumorphicButtons: View {
     var body: some View {
         ZStack {
             VStack(spacing: 50) {
-                RectangleButton()
-                
-                CircleButton()
-                
-                PayButton()
+                Button(action: firstButtonAction) {
+                    Text("Button")
+                        .font(.system(size: 20, weight: .semibold))
+                        .frame(width: 200, height: 60)
+                        .background(Color.white)
+                        .shadow(color: Color("Shadow Button 1"), radius: 20, x: 20, y: 20)
+
+                }
+                .buttonStyle(.plain)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color(#colorLiteral(red: 0.8980392157, green: 0.9333333333, blue: 1, alpha: 1)))
+            .background(Color("background2"))
             .edgesIgnoringSafeArea(.all)
         }
     }
@@ -31,7 +35,11 @@ struct NeumorphicButtons: View {
 }
 
 //  MARK: - Actions
-extension NeumorphicButtons {}
+extension NeumorphicButtons {
+    func firstButtonAction() {
+        
+    }
+}
 
 //  MARK: - Local Components
 extension NeumorphicButtons {}
@@ -193,18 +201,16 @@ struct PayButton: View {
             }
         )
             .clipShape(Circle())
-        .overlay(
-            Circle()
-                .trim(from: tap ? 0.001 : 1, to: 1)
-//                .stroke(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)), Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1))]), startPoint: .topLeading, endPoint: .bottomTrailing), style: StrokeStyle())
-//                .stroke(style: <#T##StrokeStyle#>)
-            
-            //StrokeStyle(lineWidth: 5, lineCap: .round)
-                .frame(width: 88, height: 88)
-                .rotationEffect(Angle(degrees: 90))
-                .rotation3DEffect(Angle(degrees: 180), axis: (x: 1, y: 0, z: 0))
-                .shadow(color: Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)).opacity(0.3), radius: 5, x: 3, y: 3)
-        )
+            .overlay(
+                Circle()
+                    .trim(from: tap ? 0.001 : 1, to: 1)
+                    .stroke(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)), Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1))]), startPoint: .topLeading, endPoint: .bottomTrailing), style: SwiftUI.StrokeStyle(lineWidth: 5, lineCap: .round))
+                    .frame(width: 88, height: 88)
+                    .rotationEffect(Angle(degrees: 90))
+                    .rotation3DEffect(Angle(degrees: 180), axis: (x: 1, y: 0, z: 0))
+                    .shadow(color: Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)).opacity(0.3), radius: 5, x: 3, y: 3)
+                    .animation(.easeInOut, value: tap)
+            )
             .shadow(color: Color(press ? #colorLiteral(red: 0.7608050108, green: 0.8164883852, blue: 0.9259157777, alpha: 1) : #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)), radius: 20, x: -20, y: -20)
             .shadow(color: Color(press ? #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1) : #colorLiteral(red: 0.7608050108, green: 0.8164883852, blue: 0.9259157777, alpha: 1)), radius: 20, x: 20, y: 20)
             .scaleEffect(tap ? 1.2 : 1)
