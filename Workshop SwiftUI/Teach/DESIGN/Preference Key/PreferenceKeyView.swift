@@ -20,19 +20,17 @@ struct PreferenceKeyView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                Image("Background 2")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 350, height: 350)
-                    .clipShape(RoundedRectangle(cornerRadius: 15))
-                    .softShadowV1()
-                
-                    .onTapGesture {
-                        showSecondView = true
-                    }
-                
-                SecondPreferenceKeyView()
-                
+                VStack {
+                    Image("Background 2")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 350, height: 350)
+                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                        .softShadowV1()
+                    
+                    SecondPreferenceKeyView()
+                }
+                .frame(maxWidth: .infinity)
             }
             .navigationTitle(title)
             .onPreferenceChange(CustomNavigationTitlePreferenceKey.self) { value in

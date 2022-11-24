@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "FIFA World Cup trophy Copa del Mundo 120721.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

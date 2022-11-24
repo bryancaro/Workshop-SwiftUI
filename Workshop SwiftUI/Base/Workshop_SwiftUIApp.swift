@@ -11,14 +11,12 @@ import SwiftUI
 struct Workshop_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            EmptyView()
             //  MARK: -------- NOT DESIGN --------
             //  MARK:         CONCURRENCY
             //            AsyncAwaitView()
             //            TaskCancelMainView()
             //            AsyncLetView()
             //            ActorsView()
-            
             //  MARK:         OBJECTS
             //            StateObservableObjectView()
             //  MARK:         REPRESENTABLE AND HOSTING
@@ -29,9 +27,14 @@ struct Workshop_SwiftUIApp: App {
             
             //  MARK: -------- DESIGN --------
             //  MARK:         STYLEGUIDE - DARKMODE
-            //  MARK:         ANIMATIONS AND TRANSITIONS
-            //  MARK:         NEUMORPHIC BUTTONS
+            //            StyleGuideView()
+            //  MARK:         TRANSITIONS
+            //            TransitionView()
+            //            MatchGeometryView()
             //  MARK:         DYNAMIC TEXT
+            //            DynamicTextView()
+            //  MARK:         ACCESSIBILITY AND VOICEOVER
+            //            AccessibilityView()
             //  MARK: -------- PRACTICE --------
             ContentView()
         }

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1105EA49292FE4DC006253A0 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105EA48292FE4DC006253A0 /* TransitionView.swift */; };
+		1105EA4B292FEC82006253A0 /* MatchGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105EA4A292FEC82006253A0 /* MatchGeometryView.swift */; };
+		1105EA4E292FFD6D006253A0 /* AccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105EA4D292FFD6D006253A0 /* AccessibilityView.swift */; };
+		1105EA502930072D006253A0 /* WorldCupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105EA4F2930072D006253A0 /* WorldCupView.swift */; };
+		1105EA5229300AF6006253A0 /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105EA5129300AF6006253A0 /* WinnerView.swift */; };
+		1105EA5429300DCF006253A0 /* QATARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105EA5329300DCF006253A0 /* QATARView.swift */; };
 		110736122929720200A9D360 /* StrokeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110736112929720200A9D360 /* StrokeStyle.swift */; };
 		1107361529297BFF00A9D360 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1107361429297BFF00A9D360 /* TabItem.swift */; };
 		11073618292988EA00A9D360 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11073617292988EA00A9D360 /* PreferenceKey.swift */; };
@@ -20,7 +26,6 @@
 		11236786292D3FFF00E82ADA /* StyleGuide-Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11236785292D3FFF00E82ADA /* StyleGuide-Modifier.swift */; };
 		1161C16A292A7AE900693757 /* RocketCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C169292A7AE900693757 /* RocketCard.swift */; };
 		1161C16C292A9AE300693757 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C16B292A9AE300693757 /* Rocket.swift */; };
-		1161C16E292AD12400693757 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161C16D292AD12400693757 /* MatchedView.swift */; };
 		116818D4291B9579004012ED /* Workshop_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116818D3291B9579004012ED /* Workshop_SwiftUIApp.swift */; };
 		116818D8291B957C004012ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116818D7291B957C004012ED /* Assets.xcassets */; };
 		116818DB291B957C004012ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116818DA291B957C004012ED /* Preview Assets.xcassets */; };
@@ -62,13 +67,11 @@
 		11681995291C4788004012ED /* Readme-Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11681994291C4788004012ED /* Readme-Widget.swift */; };
 		11843176292ECE28003BC974 /* GenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11843175292ECE28003BC974 /* GenericView.swift */; };
 		1188F17E292D8791009C0A2C /* DynamicTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F17D292D8791009C0A2C /* DynamicTextView.swift */; };
-		1188F181292D87BF009C0A2C /* NeumorphicButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F180292D87BF009C0A2C /* NeumorphicButtons.swift */; };
 		1188F184292D87E0009C0A2C /* Widget-Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F183292D87E0009C0A2C /* Widget-Readme.swift */; };
 		1188F187292D93DC009C0A2C /* PreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188F186292D93DC009C0A2C /* PreferenceKeyView.swift */; };
 		11BE30FD292588C90034F3C5 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE30FC292588C90034F3C5 /* NavigationBar.swift */; };
 		11BE310029258FEA0034F3C5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE30FF29258FEA0034F3C5 /* TabBar.swift */; };
 		11BE3106292591BF0034F3C5 /* RocketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE3105292591BF0034F3C5 /* RocketsView.swift */; };
-		11BE3108292592060034F3C5 /* SatelliteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE3107292592060034F3C5 /* SatelliteView.swift */; };
 		11BE310A2925921E0034F3C5 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BE31092925921E0034F3C5 /* ChallengeView.swift */; };
 		11C32F372923F835006EF581 /* CoreMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C32F362923F835006EF581 /* CoreMotionView.swift */; };
 		11C32F392923F856006EF581 /* CoreMotionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C32F382923F856006EF581 /* CoreMotionViewModel.swift */; };
@@ -99,13 +102,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1105EA48292FE4DC006253A0 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		1105EA4A292FEC82006253A0 /* MatchGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeometryView.swift; sourceTree = "<group>"; };
+		1105EA4D292FFD6D006253A0 /* AccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityView.swift; sourceTree = "<group>"; };
+		1105EA4F2930072D006253A0 /* WorldCupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupView.swift; sourceTree = "<group>"; };
+		1105EA5129300AF6006253A0 /* WinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerView.swift; sourceTree = "<group>"; };
+		1105EA5329300DCF006253A0 /* QATARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QATARView.swift; sourceTree = "<group>"; };
 		110736112929720200A9D360 /* StrokeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyle.swift; sourceTree = "<group>"; };
 		1107361429297BFF00A9D360 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		11073617292988EA00A9D360 /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
 		11073619292995C300A9D360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1107361C29299D4000A9D360 /* Text-Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text-Modifier.swift"; sourceTree = "<group>"; };
 		11236777292D39E700E82ADA /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
-		11236779292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImpactFeedBack-Utilities.swift"; path = "Workshop SwiftUI/Teach/DESIGN/Neumorphic Buttons/UIImpactFeedBack-Utilities.swift"; sourceTree = SOURCE_ROOT; };
+		11236779292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImpactFeedBack-Utilities.swift"; path = "Workshop SwiftUI/Shared/Utils/UIImpactFeedBack-Utilities.swift"; sourceTree = SOURCE_ROOT; };
 		1123677E292D3B5D00E82ADA /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
 		1123677F292D3B5D00E82ADA /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		11236782292D3B9B00E82ADA /* Workshop-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Workshop-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -113,7 +122,6 @@
 		11236785292D3FFF00E82ADA /* StyleGuide-Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StyleGuide-Modifier.swift"; sourceTree = "<group>"; };
 		1161C169292A7AE900693757 /* RocketCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketCard.swift; sourceTree = "<group>"; };
 		1161C16B292A9AE300693757 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
-		1161C16D292AD12400693757 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 		116818D0291B9579004012ED /* Workshop SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workshop SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		116818D3291B9579004012ED /* Workshop_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workshop_SwiftUIApp.swift; sourceTree = "<group>"; };
 		116818D7291B957C004012ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -157,13 +165,11 @@
 		11681994291C4788004012ED /* Readme-Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Readme-Widget.swift"; sourceTree = "<group>"; };
 		11843175292ECE28003BC974 /* GenericView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericView.swift; sourceTree = "<group>"; };
 		1188F17D292D8791009C0A2C /* DynamicTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DynamicTextView.swift; path = "Workshop SwiftUI/Teach/DESIGN/StyleGuide/DynamicTextView.swift"; sourceTree = SOURCE_ROOT; };
-		1188F180292D87BF009C0A2C /* NeumorphicButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtons.swift; sourceTree = "<group>"; };
 		1188F183292D87E0009C0A2C /* Widget-Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widget-Readme.swift"; sourceTree = "<group>"; };
 		1188F186292D93DC009C0A2C /* PreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyView.swift; sourceTree = "<group>"; };
 		11BE30FC292588C90034F3C5 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		11BE30FF29258FEA0034F3C5 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		11BE3105292591BF0034F3C5 /* RocketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsView.swift; sourceTree = "<group>"; };
-		11BE3107292592060034F3C5 /* SatelliteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteView.swift; sourceTree = "<group>"; };
 		11BE31092925921E0034F3C5 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
 		11C32F362923F835006EF581 /* CoreMotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionView.swift; sourceTree = "<group>"; };
 		11C32F382923F856006EF581 /* CoreMotionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionViewModel.swift; sourceTree = "<group>"; };
@@ -189,6 +195,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1105EA4C292FFD5C006253A0 /* Accessibility and VoiceOver */ = {
+			isa = PBXGroup;
+			children = (
+				1105EA4D292FFD6D006253A0 /* AccessibilityView.swift */,
+			);
+			path = "Accessibility and VoiceOver";
+			sourceTree = "<group>";
+		};
 		1107360A2929718400A9D360 /* Component */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +215,7 @@
 		1107360B2929719000A9D360 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				11236779292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift */,
 				11073616292988C400A9D360 /* Preference Key */,
 			);
 			path = Utils;
@@ -277,8 +292,8 @@
 				11236773292D394000E82ADA /* StyleGuide */,
 				1188F17C292D8779009C0A2C /* Dynamic Text */,
 				1188F185292D93BF009C0A2C /* Preference Key */,
-				1188F17F292D87A6009C0A2C /* Neumorphic Buttons */,
-				11236774292D394E00E82ADA /* Animation and Transitions */,
+				11236774292D394E00E82ADA /* Transitions MatchGeometry */,
+				1105EA4C292FFD5C006253A0 /* Accessibility and VoiceOver */,
 			);
 			path = DESIGN;
 			sourceTree = "<group>";
@@ -294,11 +309,13 @@
 			path = StyleGuide;
 			sourceTree = "<group>";
 		};
-		11236774292D394E00E82ADA /* Animation and Transitions */ = {
+		11236774292D394E00E82ADA /* Transitions MatchGeometry */ = {
 			isa = PBXGroup;
 			children = (
+				1105EA48292FE4DC006253A0 /* TransitionView.swift */,
+				1105EA4A292FEC82006253A0 /* MatchGeometryView.swift */,
 			);
-			path = "Animation and Transitions";
+			path = "Transitions MatchGeometry";
 			sourceTree = "<group>";
 		};
 		1123677D292D3B5D00E82ADA /* Bebas_Neue */ = {
@@ -633,15 +650,6 @@
 			path = "Dynamic Text";
 			sourceTree = "<group>";
 		};
-		1188F17F292D87A6009C0A2C /* Neumorphic Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				11236779292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift */,
-				1188F180292D87BF009C0A2C /* NeumorphicButtons.swift */,
-			);
-			path = "Neumorphic Buttons";
-			sourceTree = "<group>";
-		};
 		1188F182292D87D6009C0A2C /* Widget */ = {
 			isa = PBXGroup;
 			children = (
@@ -696,8 +704,9 @@
 		11BE3103292591730034F3C5 /* Satellite */ = {
 			isa = PBXGroup;
 			children = (
-				11BE3107292592060034F3C5 /* SatelliteView.swift */,
-				1161C16D292AD12400693757 /* MatchedView.swift */,
+				1105EA5329300DCF006253A0 /* QATARView.swift */,
+				1105EA4F2930072D006253A0 /* WorldCupView.swift */,
+				1105EA5129300AF6006253A0 /* WinnerView.swift */,
 			);
 			path = Satellite;
 			sourceTree = "<group>";
@@ -824,11 +833,10 @@
 			files = (
 				1168190F291B9836004012ED /* TaskCancelViewModel.swift in Sources */,
 				11C32F392923F856006EF581 /* CoreMotionViewModel.swift in Sources */,
+				1105EA4B292FEC82006253A0 /* MatchGeometryView.swift in Sources */,
 				1123677A292D3ACC00E82ADA /* UIImpactFeedBack-Utilities.swift in Sources */,
 				11C32F372923F835006EF581 /* CoreMotionView.swift in Sources */,
-				1188F181292D87BF009C0A2C /* NeumorphicButtons.swift in Sources */,
 				1107361D29299D4000A9D360 /* Text-Modifier.swift in Sources */,
-				1161C16E292AD12400693757 /* MatchedView.swift in Sources */,
 				1168192A291BA6DB004012ED /* UIView-Extension.swift in Sources */,
 				11681907291B9836004012ED /* ContinuationView.swift in Sources */,
 				1168190C291B9836004012ED /* DataManager.swift in Sources */,
@@ -840,16 +848,18 @@
 				11BE3106292591BF0034F3C5 /* RocketsView.swift in Sources */,
 				11681927291BA40D004012ED /* LoginView.swift in Sources */,
 				11681920291B9C38004012ED /* Readme.swift in Sources */,
+				1105EA49292FE4DC006253A0 /* TransitionView.swift in Sources */,
 				11681925291BA407004012ED /* LoginUIViewRepresentable.swift in Sources */,
 				11681908291B9836004012ED /* TaskGroupView.swift in Sources */,
 				1168190E291B9836004012ED /* TaskCancelView.swift in Sources */,
 				1188F184292D87E0009C0A2C /* Widget-Readme.swift in Sources */,
 				11236778292D39E700E82ADA /* StyleGuide.swift in Sources */,
-				11BE3108292592060034F3C5 /* SatelliteView.swift in Sources */,
 				1188F187292D93DC009C0A2C /* PreferenceKeyView.swift in Sources */,
 				11236784292D3C8D00E82ADA /* StyleGuideView.swift in Sources */,
 				11681905291B9836004012ED /* AsyncLetViewModel.swift in Sources */,
 				1107361A292995C300A9D360 /* ContentView.swift in Sources */,
+				1105EA5429300DCF006253A0 /* QATARView.swift in Sources */,
+				1105EA502930072D006253A0 /* WorldCupView.swift in Sources */,
 				11073618292988EA00A9D360 /* PreferenceKey.swift in Sources */,
 				11681906291B9836004012ED /* ContinuationViewModel.swift in Sources */,
 				1168190A291B9836004012ED /* AsyncAwaitViewModel.swift in Sources */,
@@ -857,6 +867,7 @@
 				1168190B291B9836004012ED /* AsyncAwaitView.swift in Sources */,
 				11681917291B99A1004012ED /* StateObservableObjectView.swift in Sources */,
 				110736122929720200A9D360 /* StrokeStyle.swift in Sources */,
+				1105EA5229300AF6006253A0 /* WinnerView.swift in Sources */,
 				11236786292D3FFF00E82ADA /* StyleGuide-Modifier.swift in Sources */,
 				11843176292ECE28003BC974 /* GenericView.swift in Sources */,
 				11681909291B9836004012ED /* TaskGroupViewModel.swift in Sources */,
@@ -866,6 +877,7 @@
 				1168192D291BAA7D004012ED /* LoginUIViewController.swift in Sources */,
 				11BE30FD292588C90034F3C5 /* NavigationBar.swift in Sources */,
 				1168191C291B9A01004012ED /* EnvironmentView.swift in Sources */,
+				1105EA4E292FFD6D006253A0 /* AccessibilityView.swift in Sources */,
 				11681904291B9836004012ED /* AsyncLetView.swift in Sources */,
 				1168191E291B9A0B004012ED /* EnvironmentViewModel.swift in Sources */,
 				11BE310029258FEA0034F3C5 /* TabBar.swift in Sources */,
