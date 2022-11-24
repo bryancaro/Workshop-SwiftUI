@@ -290,9 +290,9 @@
 			isa = PBXGroup;
 			children = (
 				11236773292D394000E82ADA /* StyleGuide */,
-				1188F17C292D8779009C0A2C /* Dynamic Text */,
-				1188F185292D93BF009C0A2C /* Preference Key */,
 				11236774292D394E00E82ADA /* Transitions MatchGeometry */,
+				1188F185292D93BF009C0A2C /* Preference Key */,
+				1188F17C292D8779009C0A2C /* Dynamic Text */,
 				1105EA4C292FFD5C006253A0 /* Accessibility and VoiceOver */,
 			);
 			path = DESIGN;

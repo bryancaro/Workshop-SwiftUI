@@ -50,7 +50,7 @@ struct RocketsView: View {
                                 )
 
                             
-                            Text("\(value)")
+//                            Text("\(value)")
                         }
                     }
                 }
